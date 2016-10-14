@@ -19,6 +19,7 @@ add	build_opencv.sh	/build_opencv.sh
 run	/bin/sh /build_opencv.sh
 run	rm -rf /build_opencv.sh
 
+ADD chute/run.sh /usr/local/bin/run.sh
 
 
 CMD ["bash", "/usr/local/bin/run.sh"]
