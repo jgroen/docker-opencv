@@ -11,7 +11,7 @@ run	apt-get install -y -q build-essential
 run	apt-get install -y -q cmake
 run	apt-get install -y -q python2.7 python2.7-dev
 run apt-get install python-pip
-run	pip install numpy
+run	pip install numpy -y
 run	apt-get install -y -q libavformat-dev libavcodec-dev libavfilter-dev libswscale-dev
 run	apt-get install -y -q libjpeg-dev libpng-dev libtiff-dev libjasper-dev zlib1g-dev libopenexr-dev libxine-dev libeigen3-dev libtbb-dev
 add	build_opencv.sh	/build_opencv.sh
