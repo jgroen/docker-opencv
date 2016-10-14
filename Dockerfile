@@ -18,3 +18,7 @@ run	apt-get install -y -q libjpeg-dev libpng-dev libtiff-dev libjasper-dev zlib1
 add	build_opencv.sh	/build_opencv.sh
 run	/bin/sh /build_opencv.sh
 run	rm -rf /build_opencv.sh
+
+
+
+CMD ["bash", "/usr/local/bin/run.sh"]
