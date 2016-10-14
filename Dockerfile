@@ -1,4 +1,4 @@
-from	ubuntu:12.10
+FROM paradrop/workshop
 
 # Ubuntu sides with libav, I side with ffmpeg.
 run	echo "deb http://ppa.launchpad.net/jon-severinsson/ffmpeg/ubuntu quantal main" >> /etc/apt/sources.list
